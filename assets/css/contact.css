@@ -1,0 +1,66 @@
+/* body and Navbar */
+body {
+    background-image: url(../images/bodypic.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position-x: center;
+}
+.navbar-custom {
+    background: rgba(4, 23, 71, 1);
+    color: rgba(25, 232, 197, 1);
+    border-bottom: 5px solid white;
+}
+.navbar-custom .navbar-brand, .navbar-custom .navbar-nav .nav-link {
+    color: rgba(25, 232, 197, 1);
+}
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgba(25, 232, 197, .5);
+}
+.hamburger {
+    background-color: rgba(25, 232, 197, 1);
+    border: solid white;
+    border-radius: 50%;
+}
+
+/* main container */
+.container {
+    width: 45vw;
+    float: left;
+    margin: 75px 75px;
+    border-radius: 5px;
+}
+header {
+    padding-top: 20px;
+    padding-left: 15px;
+    color: rgba(4, 23, 71, .65);
+    text-shadow: 2px 2px rgba(25, 232, 197, .5);
+}
+hr {
+    height: 3px;
+    background-color: rgba(4, 23, 71, 1);
+}
+.btn {
+    background: rgba(4, 23, 71, 1);
+    color: rgba(25, 232, 197, 1);
+    margin-bottom: 10px;
+}
+.bi-github, .bi-envelope {
+   color: rgba(25, 232, 197, 1); 
+   /* float: right; */
+   text-align: right;
+}
+.bi-linkedin, .bi-file-person {
+   color: rgba(4, 23, 71, 1); 
+   /* float: right; */
+   text-align: right;
+}
+
+@media only screen and (max-width: 600px){
+    .container {
+        width: 100vw;
+        margin: auto 0;
+        margin-top: 100px;
+        float: none;
+    }
+}
