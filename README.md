@@ -1,7 +1,8 @@
-# hmwk02
-<!-- This project is a personal bio/portfolio of my work. -->
+# Portfolio
 
-<!-- there is a navbar to navigate through the linked pages to see "about me", "portfolio" and "contact me". -->
+* This project is a personal bio/portfolio of my work. There is a navbar to navigate through the linked pages to see "about me", "portfolio" and "contact me".
 
-<!-- on each page you will find that it breaks down the smaller you make the screen. it is also cross-platform capable. -->
+## Authors
 
+* **Kevin Willig** - *Initial work* - [Kray93](https://github.com/Kray93)
+* [kevinwillig@gmail.com](mailto:kevinwillig@gmail.com)
